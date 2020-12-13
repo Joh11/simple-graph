@@ -1,9 +1,8 @@
-# simple-graph
-### _Your Name <your.name@example.com>_
+#+title: simpleg-graph: a simple Common Lisp graph library
 
-This is a project to do ... something.
+This is a simple library to deal with (directed) graphs in Common
+Lisp.
 
-## License
-
-Specify license here
+* License
+MIT License
 
