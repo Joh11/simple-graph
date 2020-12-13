@@ -1,4 +1,4 @@
-#+title: simpleg-graph: a simple Common Lisp graph library
+#+title: simple-graph: a simple Common Lisp graph library
 
 This is a simple library to deal with (directed) graphs in Common
 Lisp.
