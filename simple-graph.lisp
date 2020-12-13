@@ -78,3 +78,6 @@
     (loop for n in out-nodes do
       (setf (gethash n (graph.revg graph)) (delete node (gethash n (graph.revg graph)))))
     graph))
+
+(defun get-nodes (graph)
+  (hash-table-keys (graph.g graph)))

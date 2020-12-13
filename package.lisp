@@ -1,7 +1,7 @@
 ;;;; package.lisp
 
 (defpackage #:simple-graph
-  (:use #:cl)
+  (:use #:cl #:alexandria)
   (:nicknames #:sg)
   (:export
    #:make-graph-from-predicate
@@ -9,4 +9,5 @@
    #:roots
    #:get-out-nodes
    #:get-in-nodes
-   #:remove-node))
+   #:remove-node
+   #:get-nodes))
